@@ -1,0 +1,40 @@
+ipconfig
+
+Shows Windows IP Configuration
+
+/?               Display this help message
+/all             Display full configuration information.
+/release         Release IPv4 address for the specified adapter
+/release6        Release IPv6 address for the specified adapter.
+/renew           Renew IPv4 address for the specified adapter.
+/renew6          Renew IPv6 address for the specified adapter.
+/flushdns        Purges the DNS Resolver cache.
+/registerdns     Refreshes all DHCP leases re-registers DNS names
+/displaydns      Display the contents of the DNS Resolver Cache.
+/showclassid     Displays all dhcp class IDs allowed for adapter
+/setclassid      Modifies the dhcp class id.
+/showclassid6    Displays all IPv6 DHCP class IDs for adapter
+/setclassid6     Modifies the IPv6 DHCP class id.
+
+
+ping
+
+Test reachability of a device on an IP network
+
+-t             Ping the specified host until stopped.
+-a             Resolve addresses to hostnames.
+-n count       Number of echo requests to send.
+-l size        Send buffer size.
+-f             Set Don't Fragment flag in packet (IPv4-only).
+-i TTL         Time To Live.
+-r count       Record route for count hops (IPv4-only).
+-s count       Timestamp for count hops (IPv4-only).
+-j host-list   Loose source route along host-list (IPv4-only).
+-k host-list   Strict source route along host-list (IPv4-only).
+-w timeout     Timeout in milliseconds to wait for each reply.
+-R             Use routing header to test reverse route(IPv6)
+-S srcaddr     Source address to use.
+-c compartment Routing compartment identifier.
+-p             Ping a Hyper-V Network Virtualization provider address.
+-4             Force using IPv4.
+-6             Force using IPv6.

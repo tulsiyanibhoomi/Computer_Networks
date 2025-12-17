@@ -1,0 +1,72 @@
+Hub
+
+Hub is operated on Physical layer of OSI model.
+Hub is a broadcast type transmission.
+Hub have 4/12 ports.
+In hub, there is only one collision domain.
+Hub is a half duplex transmission mode.
+In hub, Packet filtering is not provided.
+Hub cannot be used as a repeater.
+Hub is not an intelligent device that sends message to all ports hence it is comparatively inexpensive.
+Hub is simply old type of device and is not generally used.
+Hacking of systems attached to hub is complex.
+Speed of original hub 10Mbps and modern internet hub is 100Mbps.
+Hubs are used in LANs.
+Cheaper as compared to switch.
+
+
+Switch
+
+While switch is operated on Data link layer of OSI Model.
+While switch is a Unicast, multicast and broadcast type transmission.
+While switch can have 24 to 48 ports.
+While in switch, different ports have own collision domain.
+While switch is a full duplex transmission mode.
+While in switch, Packet filtering is provided.
+While switch can be used as a repeater.
+While switch is an intelligent device that sends message to selected destination so it is expensive.
+While switch is very sophisticated device and widely used.
+Hacking of systems attached to switch is little easy.
+Maximum speed is 10Mbps to 100Mbps.
+Switch is used in LANs.
+Expensive as compared to HUB.
+
+
+
+
+
+
+
+Router 
+
+The main objective of router is to connect various networks simultaneously.
+It works in network layer.
+Router is used by LAN as well as MAN.
+Through the router, data is sent in the form of packets.
+There is less collision taking place in the router.
+Router is compatible with NAT.
+Router is a relatively much more expensive device than switch.
+maximum speed for wireless is 1-10 Mbps and maximum speed for wired connections is 100 Mbps.
+Router needs at least two networks to connect. 
+The types of routing are: Adaptive and Non-adaptive routing.
+
+
+Switch
+
+While the main objective of switch is to connect various devices simultaneously.
+While it works in data link layer.
+While switch is used by only LAN.
+While through switch data is sent in the form of  frame.
+While there is no collision taking place in full duplex switch.
+While it is not compatible with NAT.
+Switch is an expensive device than hub. but cheaper than router.
+Maximum speed is 10Mbps to 100Mbps.
+Switch needs at least single network is to connect.
+The types of switching are: Circuit, Packet, and Message Switching.
+
+
+
+
+
+
+

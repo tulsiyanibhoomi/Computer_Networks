@@ -1,0 +1,12 @@
+en  				- enable
+conf t   			- go to config
+vlan 10				- to add vlan number
+name faculty			- to add vlan name
+exit				- to exit
+end 		
+show vlan brief			- to see all vlan database
+conf t
+interface range fa0/1
+switchport mode access
+switchport access vlan 10
+exit
